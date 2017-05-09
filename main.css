@@ -60,6 +60,7 @@ a:nth-of-type(1) {
 	margin: 15px 10% 0;
 }
 
+/*
 .songList {
 	width: 68%;
 	height: auto;
@@ -67,24 +68,20 @@ a:nth-of-type(1) {
 	border: 2px solid black;
 	padding: 1rem;
 	position: right;
-	/*position: fixed;*/
-}
+
+}*/
 
 #box2 {
-	width: auto;
-	height: auto;
+	width: 68%;
+	height: 20rem;
+	padding: 1rem;
 	background-color: lightgreen;
 	position: right;
-	/*position: fixed;*/
-	/*border: 2px solid black;*/
-	/*padding: 1rem;*/
+	border: 2px solid black;
+	overflow: auto;
+
 }
 
-/*#box2 * {
-	width: 80%;
-	margin: 0 10%;
-}
-*/
 .songs * {
 	margin: .25rem;
 	padding: 0 .25rem;
@@ -95,6 +92,10 @@ a:nth-of-type(1) {
 	display: inline-flex;
 	padding: .25rem;
 
+}
+
+#inputView {
+	width: 25%;
 }
 
 #inputView * {
