@@ -58,7 +58,7 @@ let box2 = document.getElementById("box2");
 let homePage = document.getElementById("homePage");
 homePage.addEventListener("click", () => {
 
-	box2.classList.add("hidden");
+	// box2.classList.add("hidden");
 	inputView.classList.add("hidden");
 
 	homeView.classList.remove("hidden");
@@ -77,7 +77,7 @@ let addMusic = document.getElementById("addMusic");
 addMusic.addEventListener("click", () => {
 
 	homeView.classList.add("hidden");
-	box2.classList.add("hidden");
+	// box2.classList.add("hidden");
 
 	inputView.classList.remove("hidden");
 });
